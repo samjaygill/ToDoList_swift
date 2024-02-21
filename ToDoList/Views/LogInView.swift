@@ -24,21 +24,16 @@ struct LogInView: View {
                 Form {
                     TextField("Email Address", text: $email)
                         .textFieldStyle(DefaultTextFieldStyle())
+                        .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
                     SecureField("Password", text: $password)
                         .textFieldStyle(DefaultTextFieldStyle())
                     
-                    Button{
-                        // attempt log in
-                    } label: {
-                        ZStack{
-                            RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(Color/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-                            Text("Log In")
-                                .foregroundColor(Color.white)
-                                .bold()
-                        }
+                    TLButton(
+                        title: "Log In",
+                        background: .blue
+                    ) {
+                        // Attempt log in
                     }
-                    .padding()
                 }
                 .offset(y: -50)
                 

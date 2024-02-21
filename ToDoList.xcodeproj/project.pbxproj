@@ -56,6 +56,7 @@
 		3D9E101F2B861E9100F79E93 /* ToDoListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E101E2B861E9100F79E93 /* ToDoListItemViewModel.swift */; };
 		3DDDC2062B8627740056C1DC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDC2052B8627740056C1DC /* HeaderView.swift */; };
 		3DDDC2082B8627860056C1DC /* HeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDC2072B8627860056C1DC /* HeaderViewModel.swift */; };
+		3DDDC20A2B86343C0056C1DC /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDC2092B86343C0056C1DC /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		3D9E101E2B861E9100F79E93 /* ToDoListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewModel.swift; sourceTree = "<group>"; };
 		3DDDC2052B8627740056C1DC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		3DDDC2072B8627860056C1DC /* HeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewModel.swift; sourceTree = "<group>"; };
+		3DDDC2092B86343C0056C1DC /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				3D9E100A2B861D9000F79E93 /* RegisterView.swift */,
 				3D9E100C2B861DC000F79E93 /* ToDoListItemView.swift */,
 				3DDDC2052B8627740056C1DC /* HeaderView.swift */,
+				3DDDC2092B86343C0056C1DC /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				3D9E10052B861D6700F79E93 /* ToDoListView.swift in Sources */,
 				3D9E100B2B861D9000F79E93 /* RegisterView.swift in Sources */,
 				3D9E10152B861E3B00F79E93 /* ProfileViewModel.swift in Sources */,
+				3DDDC20A2B86343C0056C1DC /* TLButton.swift in Sources */,
 				3D9E10032B861D5000F79E93 /* ProfileView.swift in Sources */,
 				3D9E101F2B861E9100F79E93 /* ToDoListItemViewModel.swift in Sources */,
 				3D9E100F2B861DEC00F79E93 /* User.swift in Sources */,
