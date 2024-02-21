@@ -30,8 +30,6 @@ class LogInViewModel: ObservableObject {
             errorMessage = "Please fill in all fields."
             return false
         }
-        
-        // email @ and .
         guard email.contains("@") && email.contains(".") else {
             errorMessage = "Please enter a valid email."
             return false

@@ -57,6 +57,7 @@
 		3DDDC2062B8627740056C1DC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDC2052B8627740056C1DC /* HeaderView.swift */; };
 		3DDDC2082B8627860056C1DC /* HeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDC2072B8627860056C1DC /* HeaderViewModel.swift */; };
 		3DDDC20A2B86343C0056C1DC /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDC2092B86343C0056C1DC /* TLButton.swift */; };
+		3DDDC20C2B8646DD0056C1DC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDC20B2B8646DD0056C1DC /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		3DDDC2052B8627740056C1DC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		3DDDC2072B8627860056C1DC /* HeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewModel.swift; sourceTree = "<group>"; };
 		3DDDC2092B86343C0056C1DC /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		3DDDC20B2B8646DD0056C1DC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 				3D9E0FBA2B8615F200F79E93 /* Assets.xcassets */,
 				3D9E0FB62B8615EF00F79E93 /* ToDoListApp.swift */,
 				3D9E10012B861C5300F79E93 /* GoogleService-Info.plist */,
+				3DDDC20B2B8646DD0056C1DC /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				3D9E10032B861D5000F79E93 /* ProfileView.swift in Sources */,
 				3D9E101F2B861E9100F79E93 /* ToDoListItemViewModel.swift in Sources */,
 				3D9E100F2B861DEC00F79E93 /* User.swift in Sources */,
+				3DDDC20C2B8646DD0056C1DC /* Extensions.swift in Sources */,
 				3DDDC2082B8627860056C1DC /* HeaderViewModel.swift in Sources */,
 				3D9E10192B861E6800F79E93 /* NewItemViewModel.swift in Sources */,
 				3D9E100D2B861DC000F79E93 /* ToDoListItemView.swift in Sources */,
