@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct LogInView: View {
+    @StateObject var viewModel = LogInViewModel()
     
-    @State var email = ""
-    @State var password = ""
+    
     
     var body: some View {
         NavigationView{
@@ -22,10 +22,10 @@ struct LogInView: View {
                            background: .pink )
                 // Login Form
                 Form {
-                    TextField("Email Address", text: $email)
+                    TextField("Email Address", text: $viewModel.email)
                         .textFieldStyle(DefaultTextFieldStyle())
                         .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
-                    SecureField("Password", text: $password)
+                    SecureField("Password", text: $viewModel.password)
                         .textFieldStyle(DefaultTextFieldStyle())
                     
                     TLButton(
