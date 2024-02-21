@@ -29,9 +29,9 @@ struct LogInView: View {
                     } label: {
                         ZStack{
                             RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                                .foregroundColor(Color/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
                             Text("Log In")
-                                .foregroundColor(.white)
+                                .foregroundColor(Color.white)
                                 .bold()
                         }
                     }
