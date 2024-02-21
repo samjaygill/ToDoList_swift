@@ -54,6 +54,8 @@
 		3D9E101B2B861E7700F79E93 /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E101A2B861E7700F79E93 /* LogInViewModel.swift */; };
 		3D9E101D2B861E7F00F79E93 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E101C2B861E7F00F79E93 /* RegisterViewModel.swift */; };
 		3D9E101F2B861E9100F79E93 /* ToDoListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9E101E2B861E9100F79E93 /* ToDoListItemViewModel.swift */; };
+		3DDDC2062B8627740056C1DC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDC2052B8627740056C1DC /* HeaderView.swift */; };
+		3DDDC2082B8627860056C1DC /* HeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDC2072B8627860056C1DC /* HeaderViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +81,8 @@
 		3D9E101A2B861E7700F79E93 /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
 		3D9E101C2B861E7F00F79E93 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		3D9E101E2B861E9100F79E93 /* ToDoListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewModel.swift; sourceTree = "<group>"; };
+		3DDDC2052B8627740056C1DC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3DDDC2072B8627860056C1DC /* HeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,13 +163,14 @@
 		3D9E0FFD2B861BE300F79E93 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3D9E0FB82B8615EF00F79E93 /* MainView.swift */,
 				3D9E10022B861D5000F79E93 /* ProfileView.swift */,
+				3D9E0FB82B8615EF00F79E93 /* MainView.swift */,
 				3D9E10042B861D6700F79E93 /* ToDoListView.swift */,
 				3D9E10062B861D7700F79E93 /* NewItemView.swift */,
 				3D9E10082B861D8300F79E93 /* LogInView.swift */,
 				3D9E100A2B861D9000F79E93 /* RegisterView.swift */,
 				3D9E100C2B861DC000F79E93 /* ToDoListItemView.swift */,
+				3DDDC2052B8627740056C1DC /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 				3D9E101A2B861E7700F79E93 /* LogInViewModel.swift */,
 				3D9E101C2B861E7F00F79E93 /* RegisterViewModel.swift */,
 				3D9E101E2B861E9100F79E93 /* ToDoListItemViewModel.swift */,
+				3DDDC2072B8627860056C1DC /* HeaderViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -307,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9E10092B861D8300F79E93 /* LogInView.swift in Sources */,
+				3DDDC2062B8627740056C1DC /* HeaderView.swift in Sources */,
 				3D9E101B2B861E7700F79E93 /* LogInViewModel.swift in Sources */,
 				3D9E0FB92B8615EF00F79E93 /* MainView.swift in Sources */,
 				3D9E101D2B861E7F00F79E93 /* RegisterViewModel.swift in Sources */,
@@ -317,6 +324,7 @@
 				3D9E10032B861D5000F79E93 /* ProfileView.swift in Sources */,
 				3D9E101F2B861E9100F79E93 /* ToDoListItemViewModel.swift in Sources */,
 				3D9E100F2B861DEC00F79E93 /* User.swift in Sources */,
+				3DDDC2082B8627860056C1DC /* HeaderViewModel.swift in Sources */,
 				3D9E10192B861E6800F79E93 /* NewItemViewModel.swift in Sources */,
 				3D9E100D2B861DC000F79E93 /* ToDoListItemView.swift in Sources */,
 				3D9E0FB72B8615EF00F79E93 /* ToDoListApp.swift in Sources */,
