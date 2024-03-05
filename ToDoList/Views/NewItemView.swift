@@ -1,5 +1,5 @@
 //
-//  NewItemView.swift
+//  NewItemView.swift
 //  ToDoList
 //
 //  Created by Samantha Gillies on 21/02/2024.
@@ -8,11 +8,50 @@
 import SwiftUI
 
 struct NewItemView: View {
+    
+    @StateObject var viewModel = NewItemViewModel()
+    @Binding var newItemPresented: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Text("New Item")
+                .font(.system(size:28))
+                .bold()
+                .padding(.top, 100)
+            
+            Form{
+                TextField("Title", text: $viewModel.title)
+                    .textFieldStyle(DefaultTextFieldStyle())
+            
+                DatePicker("Due Date", selection: $viewModel.dueDate)
+                    .datePickerStyle(GraphicalDatePickerStyle())
+                
+                TLButton(
+                    title: "Save",
+                    background: .pink
+                ){
+                    if viewModel.canSave{
+                        viewModel.save()
+                        newItemPresented = false
+                    } else {
+                        viewModel.showAlert = true
+                    }
+                }
+                .padding()
+            }
+            
+            .alert(isPresented: $viewModel.showAlert) {
+                Alert(title: Text("Error"),
+                      message: Text("Please fill in all fields and select adue date that is today or newer."))
+            }
+        }
     }
 }
 
 #Preview {
-    NewItemView()
+    NewItemView(newItemPresented:
+                    Binding(get: {
+        return true
+    }, set: { _ in
+    }))
 }
